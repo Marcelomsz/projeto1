@@ -10,7 +10,7 @@ mensagem 'Efetuar compra'.*/
 //qtdmaxima
 //qtdmedia = qtdmaxima+qtdminima /2
 
-let qtdAtual = 200;
+let qtdAtual = 100;
 let qtdminima = 100;
 let qtdmaxima = 300 ;
 let qtdmedia = ((qtdmaxima+qtdminima)/2);

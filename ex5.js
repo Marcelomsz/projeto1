@@ -12,7 +12,7 @@
     
  } 
 
- console.log(valor(10))
- console.log(valor(30))
- console.log(valor(12))
- console.log(valor(6))
+ console.log('Custo totalda compra: R$'+valor(10).toFixed(2))
+ console.log('Custo totalda compra: R$'+valor(9).toFixed(2))
+ console.log('Custo totalda compra: R$'+valor(8).toFixed(2))
+ console.log('Custo totalda compra: R$'+valor(6).toFixed(2))

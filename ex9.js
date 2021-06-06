@@ -1,20 +1,20 @@
-/*Com base em dois valores, imprimir uma das três mensagens a seguir: 
-‘Números iguais’, caso os números sejam iguais;
-‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
-‘Segundo maior’, caso o segundo seja maior que o primeiro.*/
+/*Escreva uma função que considere o número de litros vendidos e o tipo de combustível
+(codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo 
+cliente sabendo-se que o preço do litro da gasolina é R$ 5,20 e o preço do litro do álcool é R$ 4,20.*/
+let numLitrosVendidos = 100;
+let tipoCombustivel = 'a';
+let precoGasolina = 5.20
+let precoAlcool = 4.20
 
-
-let val1 =true;
-let val2 =0;
-
-function maiorOuMenor(){
-    if(val1===val2){
-        return 'números iguais'
+let precoTotal = function(){
+    if (tipoCombustivel=='A','a'){
+        return 'O valor a ser pago é R$'+numLitrosVendidos*precoAlcool;
     }
-    if (val1>val2) {
-        return 'primeiro número é maior'
-    } else {
-        return 'segundo número é maior'
+    if (tipoCombustivel=='G','g'){
+        return 'O valor a ser pago é R$'+numLitrosVendidos*precoGasolina;
+    }
+    else{
+        return tipoCombustivel+' Não é um tipo de combustive , escolha entre A ou G'
     }
 }
-console.log(maiorOuMenor())
+console.log(precoTotal())
